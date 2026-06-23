@@ -100,3 +100,17 @@ A useful classifier should achieve:
 - Consistent performance regardless of comment length.
 
 Such performance would make the classifier useful for automatically organizing discussions, analyzing conversation patterns, or assisting moderators in understanding the types of responses within the community.
+
+## AI Tool Plan
+
+### Label Stress-Testing
+
+Before beginning annotation, I will use ChatGPT to test my label definitions by generating **5–10 synthetic Reddit comments** that intentionally fall on the boundary between two labels (e.g., **Personal Experience** vs. **Explanation / Interpretation** or **Advice / Recommendation** vs. **Agreement / Validation**). If I cannot confidently assign a single label to these examples, I will refine the label definitions and annotation guidelines before labeling the full dataset.
+
+### Annotation Assistance
+
+I will use **ChatGPT** to pre-label small batches of Reddit comments using my taxonomy. Each suggested label will be manually reviewed and corrected if necessary before being added to the dataset. To ensure transparency, I will keep a record of which comments were AI-assisted during annotation and disclose this in the AI usage section of the project.
+
+### Failure Analysis
+
+After evaluating the classifier, I will provide ChatGPT with examples of incorrectly classified comments and ask it to identify common error patterns, such as confusion between similar discourse types or issues caused by comment length. I will verify each suggested pattern by reviewing the original comments and the confusion matrix to ensure the conclusions are supported by the data rather than relying solely on the AI's interpretation.
