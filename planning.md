@@ -22,7 +22,7 @@ This community is a good fit for a text classification task because comments var
 
 ---
 
-### Label 2: Explanation / Interpretation
+### Label 2: Explanation
 
 **Definition:** A comment whose primary purpose is to explain why a musical experience or phenomenon occurs using reasoning, psychology, history, or cultural context.
 
@@ -34,7 +34,7 @@ This community is a good fit for a text classification task because comments var
 
 ---
 
-### Label 3: Advice / Recommendation
+### Label 3: Advice
 
 **Definition:** A comment whose primary purpose is to recommend an action or suggest a different way of approaching music.
 
@@ -46,7 +46,7 @@ This community is a good fit for a text classification task because comments var
 
 ---
 
-### Label 4: Agreement / Validation
+### Label 4: Agreement
 
 **Definition:** A comment whose primary purpose is to affirm, validate, or reassure the original poster without providing substantial explanation or advice.
 
